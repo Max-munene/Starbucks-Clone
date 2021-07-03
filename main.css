@@ -50,6 +50,7 @@
     transition: all .2s ease;
     cursor: pointer;
     margin-right: 16px;
+    text-align: center;
   }
 
   .text .cta:hover{
@@ -66,6 +67,7 @@
 
   .left-right-section .image img{
     width:100%;
+    height: auto;
   }
   .text h1, .text h3{
     margin: 0;
@@ -91,11 +93,48 @@
   .chill .text h1{
     font-weight: 700;
     line-height: 1.2;
-    font-size: 50px;
-    letter-spacing: 8px;
+    font-size: 45px;
+    
   }
 
   .chill .text h3{
     font-size: 24px;
     line-height: 1.5;
+  }
+
+  .happy .text h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    letter-spacing: 8px;
+  }
+  .happy .text h3{
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .top-bottom-section {
+    display:flex;
+    margin-bottom: 32px;
+  }
+
+  .top-bottom-section .section-container{
+    display:flex;
+    width: 50%;
+    color: #1e3932;
+    padding:  32px 48px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f8f6
+  }
+
+  .top-bottom-section .section-container .image{
+    width: 50%;
+    display: flex;
+  }
+
+  .top-bottom-section .section-container .image img{
+    width:100%;
+    height: auto;
   }
